@@ -190,7 +190,7 @@ export class HiddenObjectScene extends Phaser.Scene {
         label: "Anillo de girasol",
         icon: "anillo",
         x: 703,
-        y: 372,
+        y: 362,
         found: false,
       },
       {
@@ -198,7 +198,7 @@ export class HiddenObjectScene extends Phaser.Scene {
         label: "Gorra 404",
         icon: "gorra",
         x: 137,
-        y: 432,
+        y: 447,
         found: false,
       },
     ];
