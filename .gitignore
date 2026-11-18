@@ -1,6 +1,16 @@
+# Dependencias
 node_modules/
+
+# Archivos generados
 dist/
-.vite/
-*.log
+
+# Configuración local de Vercel
+.vercel/
+
+# Variables de entorno
 .env
-.env.*
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
