@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl *)",
+      "Bash(cd *)",
+      "PowerShell(Add-Type -AssemblyName System.Drawing; @\\('C:\\\\Users\\\\D0570704\\\\Downloads\\\\mathsss\\\\media\\\\laura.png','C:\\\\Users\\\\D0570704\\\\Downloads\\\\mathsss\\\\media\\\\kiari.png','C:\\\\Users\\\\D0570704\\\\Downloads\\\\mathsss\\\\media\\\\villano.png'\\) | ForEach-Object { $img = [System.Drawing.Image]::FromFile\\($_\\); $frameW = $img.Width / 3; $frameH = $img.Height / 4; Write-Output \"$_ -> $\\($img.Width\\)x$\\($img.Height\\) -> frame ${frameW}x${frameH}\"; $img.Dispose\\(\\) })",
+      "Bash(npx kill-port *)"
+    ]
+  }
+}
